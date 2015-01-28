@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	>
+	
+	<RadioGroup
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/bkgnd_group"
+		>
+		
+		<RadioButton
+			android:id="@+id/bg_image"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/bg_image"
+			/>
+		<RadioButton
+			android:id="@+id/bg_solidcolor"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/bg_solidcolor"
+			/>
+		
+	</RadioGroup>
+	<!--
+	<Button
+		android:id="@+id/selectbg"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/bkgnd_group"
+		android:layout_alignParentRight="true"
+		android:text="@string/selectbg"
+		/> -->
+	
+</RelativeLayout>

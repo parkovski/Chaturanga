@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Chaturanga</string>
+<string name="sp_touchmode_prompt">Moving Pieces</string>
+<string-array name="touchmode"><item>Touch, Touch</item>
+<item>Touch, Drag</item>
+</string-array>
+<string name="reset_all_settings">Reset All Settings to Defaults</string>
+<string name="reset_all_button">Reset</string>
+<string name="newgame">New Game</string>
+<string name="nextturn">Next Turn</string>
+<string name="options">Options</string>
+<string name="background">Background</string>
+<string name="help">Help</string>
+<string name="newlocal">New Game</string>
+<string name="compplayers">Computer Players</string>
+<string name="player1">Black Team</string>
+<string name="player2">Blue Team</string>
+<string name="player3">Red Team</string>
+<string name="player4">Green Team</string>
+
+
+<string name="pickcolortext">Pick a Solid Background Color</string>
+<string name="pickcolorbtn">Pick</string>
+<string-array name="rotation"><item>Default</item>
+<item>90º Left</item>
+<item>180º (Board Flipped)</item>
+<item>90º Right</item>
+</string-array>
+<string name="sp_rotation_prompt">Board Rotation</string>
+<string name="continueplaying">Computer Keeps Playing When You Lose</string>
+<string-array name="yesno"><item>Yes</item>
+<item>No</item>
+</string-array>
+<string name="compdifficulty">Computer Difficulty</string>
+<string-array name="difficulty"><item>Easy</item>
+<item>Normal</item>
+</string-array>
+<string name="bg_image">Use Image</string>
+<string name="bg_solidcolor">Use Solid Color</string>
+<string name="undo">Undo</string>
+<string name="selectbg">Select</string>
+<string name="settings_bg_color_dialog">Pick a Color</string>
+<string name="settings_bg_color_confirm">Touch to Confirm</string>
+<string name="settings_default_color_confirm">Default</string>
+
+
+<string name="multiplayer">Multi-Player</string>
+<string name="bluetooth">Bluetooth Options</string>
+<string name="bthostmsg">Host a game over bluetooth. Will make your device discoverable.</string>
+<string name="bthost">Host</string>
+<string name="btjoinmsg">Join a game over bluetooth. Someone must be hosting already.</string>
+<string name="btjoin">Join</string>
+<string name="btstopmsg">Stop playing over bluetooth and return to single player mode.</string>
+<string name="btstop">Stop</string>
+
+<string name="scanning">scanning for devices...</string>
+<string name="select_device">select a device to connect</string>
+<string name="none_paired">No devices have been paired</string>
+<string name="none_found">No devices found</string>
+<string name="title_paired_devices">Paired Devices</string>
+<string name="title_other_devices">Other Available Devices</string>
+<string name="button_scan">Scan for devices</string>
+
+</resources>

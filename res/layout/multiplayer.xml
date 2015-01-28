@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+
+
+<TextView android:id="@+id/bluetooth" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/bluetooth" android:layout_gravity="center_horizontal"></TextView>
+
+<TextView android:id="@+id/bthostmsg" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/bthostmsg"></TextView>
+<Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/bthost" android:text="@string/bthost"></Button>
+
+
+<TextView android:text="@string/btjoinmsg" android:id="@+id/btjoinmsg" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/btjoin" android:text="@string/btjoin"></Button>
+<TextView android:text="@string/btstopmsg" android:id="@+id/btstopmsg" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/btstop" android:text="@string/btstop"></Button>
+</LinearLayout>

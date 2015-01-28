@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/options" android:icon="@drawable/ic_menu_preferences" android:title="@string/options"></item>
+<!--
+<item android:icon="@drawable/ic_menu_multiplayer" android:id="@+id/multiplayer" android:title="@string/multiplayer"></item>
+-->
+<item android:id="@+id/undo" android:title="@string/undo" android:icon="@drawable/ic_menu_revert"></item><item android:title="@string/background" android:icon="@drawable/ic_menu_gallery" android:id="@+id/changebkgnd"></item><item android:id="@+id/help" android:icon="@drawable/ic_menu_help" android:title="@string/help"></item>
+
+
+</menu>

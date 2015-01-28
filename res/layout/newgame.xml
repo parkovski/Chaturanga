@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:paddingTop="5dip"
+	>
+	
+	<TextView
+		android:id="@+id/comptext"
+		android:layout_width="fill_parent"
+		android:gravity="center"
+		android:layout_height="wrap_content"
+		android:text="@string/compplayers"
+		/>
+	
+	<CheckBox
+		android:id="@+id/player1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/comptext"
+		android:text="@string/player1"
+		/>
+	<CheckBox
+		android:id="@+id/player2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/player1"
+		android:text="@string/player2"
+		android:checked="true"
+		/>
+	<CheckBox
+		android:id="@+id/player3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/player2"
+		android:text="@string/player3"
+		android:checked="true"
+		/>
+	<CheckBox
+		android:id="@+id/player4"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/player3"
+		android:text="@string/player4"
+		android:checked="true"
+		/>
+		
+	<Button
+		android:id="@+id/singleplayer"
+		android:layout_height="wrap_content"
+		android:text="@string/newlocal"
+		android:layout_below="@id/player4"
+		android:layout_width="wrap_content"
+		android:layout_alignParentRight="true"
+		/>
+
+</RelativeLayout>

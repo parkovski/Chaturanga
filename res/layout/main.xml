@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+	<com.parkovski.BoardView
+		android:id="@+id/board"
+		android:layout_width="fill_parent"
+		android:layout_height="320dip"
+		/>
+	<com.parkovski.DiceView
+		android:id="@+id/diceview"
+		android:layout_width="fill_parent"
+		android:layout_height="48dip"
+		android:layout_below="@id/board"
+		/>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_below="@id/diceview"
+		>
+		<Button
+			android:id="@+id/nextturn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/nextturn"
+			/>
+		<Button
+			android:id="@+id/newgame"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/newgame"
+			/>
+		
+	</LinearLayout>
+	
+</RelativeLayout>
